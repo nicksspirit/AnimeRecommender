@@ -1,0 +1,4 @@
+insert
+    $user isa user
+    $user has user_id <user_id>
+    $user has name @lower(<name>)

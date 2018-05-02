@@ -1,0 +1,27 @@
+{
+    "SublimeLinter":
+    {
+        "linters":
+        {
+            "mypy":
+            {
+                "disable": false
+            }
+        }
+    },
+    "build_systems": [
+    {
+        "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+        "name": "Anaconda Python Builder",
+        "selector": "source.python",
+        "shell_cmd": "\"/Users/nickmuoh/Documents/Developer/AnimeRecommender/.venv/bin/python\" -u \"$file\""
+    }],
+    "folders": [
+    {
+        "path": "."
+    }],
+    "settings":
+    {
+        "python_interpreter": "$project_path/.venv/bin/python"
+    }
+}

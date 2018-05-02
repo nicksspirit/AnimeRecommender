@@ -1,0 +1,64 @@
+define 
+    # Entity
+    anime sub entity,
+    # Roles
+    plays watched_anime,
+    plays rated_anime,
+    plays unrated_anime,
+    plays tagged,
+
+    # Attributes
+    has anime_id,
+    has title,
+    has rating,
+    has type,
+    has episodes,
+    has members;
+    
+    # Entity
+    genre sub entity,
+        # Roles
+        plays tagger,
+        
+        # Attributes
+        has name;
+    
+    # Entity
+    user sub entity,
+        # Roles
+        plays anime_rater,
+        plays anime_watcher,
+        
+        # Attributes
+        has user_id,
+        has name;
+    
+    # Relationships
+    tagging sub relationship,
+        relates tagged, 
+        relates tagger;
+
+    anime_watched sub relationship,
+        relates watched_anime,
+        relates anime_watcher;
+
+    anime_rated sub relationship,
+        relates rated_anime,
+        relates anime_rater,
+        has user_rating;
+
+    anime_not_rated sub relationship,
+        relates unrated_anime,
+        relates anime_watcher;
+    
+    # Resources
+    identifier sub attribute, datatype string;
+    anime_id sub identifier, datatype string;
+    user_id sub identifier, datatype string;
+    title sub attribute, datatype string;
+    name sub attribute, datatype string;
+    type sub attribute, datatype string;
+    episodes sub attribute, datatype long;
+    members sub attribute, datatype long;
+    rating sub attribute, datatype double;
+    user_rating sub rating, datatype double;

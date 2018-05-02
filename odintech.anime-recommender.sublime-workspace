@@ -1,0 +1,1884 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"str",
+				"string\tparam"
+			],
+			[
+				"re",
+				"reader\tfunction"
+			],
+			[
+				"ad",
+				"adgroup_ad_analyze\tstatement"
+			],
+			[
+				"mar",
+				"margin\tproperty"
+			],
+			[
+				"di",
+				"display\tproperty"
+			],
+			[
+				"acc",
+				"acc_id\tstatement"
+			],
+			[
+				"se",
+				"search_remarketing_list\tstatement"
+			],
+			[
+				"u",
+				"user_lists\tstatement"
+			],
+			[
+				"ge",
+				"get_display_remarketing\tfunction"
+			],
+			[
+				"__",
+				"__only_display_remarketing\tfunction"
+			],
+			[
+				"ur",
+				"user_list\tparam"
+			],
+			[
+				"an",
+				"analyze_remarketing_lists\tstatement"
+			],
+			[
+				"get",
+				"get_user_lists\tfunction"
+			],
+			[
+				"c",
+				"classmethod\tclass"
+			],
+			[
+				"no",
+				"no_enhanced_cpc\tstatement"
+			],
+			[
+				"cam",
+				"campaign\tstatement"
+			],
+			[
+				"dic",
+				"Dict\tclass"
+			],
+			[
+				"ex",
+				"ext_type\tstatement"
+			],
+			[
+				"im",
+				"imp_share\tstatement"
+			],
+			[
+				"quality_score",
+				"quality_score_imp\tstatement"
+			],
+			[
+				"qu",
+				"quality_score\tstatement"
+			],
+			[
+				"def",
+				"defaultdict\tclass"
+			],
+			[
+				"K",
+				"KeywordQualityScoreImpShare\tclass"
+			],
+			[
+				"a",
+				"account_id\tstatement"
+			],
+			[
+				"en",
+				"enabled_camp_report\tstatement"
+			],
+			[
+				"Bas",
+				"BaseTaskTest\tclass"
+			],
+			[
+				"De",
+				"DESKTOP_BID_INDEX\tstatement"
+			],
+			[
+				"Mo",
+				"MOBILE_BID_INDEX\tstatement"
+			],
+			[
+				"for",
+				"format\tfunction"
+			],
+			[
+				"tab",
+				"tablet_bids\tparam"
+			],
+			[
+				"ra",
+				"raw_report\tstatement"
+			],
+			[
+				"ty",
+				"typing\tmodule"
+			],
+			[
+				"ca",
+				"campaigns\tstatement"
+			],
+			[
+				"loc",
+				"location\tstatement"
+			],
+			[
+				"En",
+				"END_HOUR\tstatement"
+			],
+			[
+				"St",
+				"START_HOUR\tstatement"
+			],
+			[
+				"as",
+				"assertIs\tfunction"
+			],
+			[
+				"Bi",
+				"BID_ADJ_INDEX\tstatement"
+			],
+			[
+				"bi",
+				"bid_adjs\tparam"
+			],
+			[
+				"sl",
+				"slide_name\tstatement"
+			],
+			[
+				"ma",
+				"match\tfunction"
+			],
+			[
+				"in",
+				"inputs\tstatement"
+			],
+			[
+				"v",
+				"validators\tmodule"
+			],
+			[
+				"camp",
+				"campaigns"
+			],
+			[
+				"Bid",
+				"BidAdjustmentTask"
+			],
+			[
+				"E",
+				"ErrorRetryTask\tclass"
+			],
+			[
+				"cha",
+				"style_chart\tfunction"
+			],
+			[
+				"st",
+				"staticmethod\tclass"
+			],
+			[
+				"ch",
+				"chart_opt\tparam"
+			],
+			[
+				"pro",
+				"prod_perf_report\tstatement"
+			],
+			[
+				"pl",
+				"place_perf_report\tstatement"
+			],
+			[
+				"upd",
+				"update_acell"
+			],
+			[
+				"op",
+				"open_by_url\tfunction"
+			],
+			[
+				"del",
+				"delete_reqs\tstatement"
+			],
+			[
+				"fr",
+				"from_iterable\tfunction"
+			],
+			[
+				"lis",
+				"list"
+			],
+			[
+				"she",
+				"SheetWiz"
+			],
+			[
+				"ret",
+				"retry"
+			],
+			[
+				"ad_ne",
+				"get_ad_network_conv"
+			],
+			[
+				"on",
+				"only_shopping"
+			],
+			[
+				"sear",
+				"search_conv"
+			],
+			[
+				"dis",
+				"display_conv"
+			],
+			[
+				"sh",
+				"shopping_conv"
+			],
+			[
+				"tot",
+				"total_cost_shopping"
+			],
+			[
+				"cos",
+				"cost_shopping"
+			],
+			[
+				"Ad",
+				"AdNetworkTask"
+			],
+			[
+				"A",
+				"AccountWiz"
+			],
+			[
+				"to",
+				"top_4_place"
+			],
+			[
+				"pla",
+				"place_list"
+			],
+			[
+				"ass",
+				"assertTrue"
+			],
+			[
+				"prod",
+				"prod_list"
+			],
+			[
+				"replace",
+				"replace_list"
+			],
+			[
+				"assert",
+				"assertIsInstance"
+			],
+			[
+				"sor",
+				"sorted_prods"
+			],
+			[
+				"rem",
+				"remarketing_list"
+			],
+			[
+				"us",
+				"use_celery"
+			],
+			[
+				"tas",
+				"task_logger"
+			],
+			[
+				"task",
+				"task_logger\tmodule"
+			],
+			[
+				"lo",
+				"logs\tmodule"
+			],
+			[
+				"run",
+				"run_task\tfunction"
+			],
+			[
+				"g",
+				"get_auto_bidding_list\tfunction"
+			],
+			[
+				"au",
+				"auto_bidding_list\tstatement"
+			],
+			[
+				"adg",
+				"adg_id_count"
+			],
+			[
+				"KW",
+				"KW_CAMP_STATUS_INDEX"
+			],
+			[
+				"get_no_cam",
+				"get_no_camp_enhaced_cpc"
+			],
+			[
+				"get_no",
+				"get_no_camp_display_selct"
+			],
+			[
+				"res",
+				"result_2"
+			],
+			[
+				"adwo",
+				"adwords_client"
+			],
+			[
+				"cl",
+				"classList\t{} "
+			],
+			[
+				"sta",
+				"statusBtn\t{} "
+			],
+			[
+				"con",
+				"console\t{} "
+			],
+			[
+				"do",
+				"document\t{} "
+			],
+			[
+				"pr",
+				"property"
+			],
+			[
+				"_",
+				"__dict__"
+			],
+			[
+				"cli",
+				"client_id"
+			],
+			[
+				"_client_",
+				"_client_id\tstatement"
+			],
+			[
+				"q",
+				"querySelector\tfn "
+			],
+			[
+				"fun",
+				"function\t? "
+			],
+			[
+				"fi",
+				"field"
+			],
+			[
+				"field",
+				"field-body"
+			],
+			[
+				"up",
+				"update_worksheet_reqs"
+			],
+			[
+				"exec",
+				"exec_table_update"
+			],
+			[
+				"exe",
+				"ExecuteReqTask"
+			],
+			[
+				"cell",
+				"cell_text"
+			],
+			[
+				"cm",
+				"camp_perf_report"
+			],
+			[
+				"acc_",
+				"account_id"
+			],
+			[
+				"Ex",
+				"ExecuteReqTask"
+			],
+			[
+				"Cam",
+				"CampaignAdAnaylzeTask"
+			],
+			[
+				"expande",
+				"expanded_text"
+			],
+			[
+				"de",
+				"defaultdict"
+			],
+			[
+				"ac",
+				"acc_table_col"
+			],
+			[
+				"T",
+				"TABLE_ID"
+			],
+			[
+				"cel",
+				"cells_to_update"
+			],
+			[
+				"get_",
+				"get_enabled_conv"
+			],
+			[
+				"co",
+				"conversion_tracking"
+			],
+			[
+				"pe",
+				"percent_str\tstatement"
+			],
+			[
+				"is",
+				"assertIsInstance\tfunction"
+			],
+			[
+				"assertis",
+				"assertIsInstance\tfunction"
+			],
+			[
+				"ad_",
+				"ad_ext_dict\tstatement"
+			],
+			[
+				"un",
+				"unittest\tmodule"
+			],
+			[
+				"conv",
+				"conversion_trackers"
+			],
+			[
+				"inse",
+				"inserted_chart"
+			],
+			[
+				"audien",
+				"audience_list"
+			],
+			[
+				"cur",
+				"curr_campaign_id\tstatement"
+			],
+			[
+				"ta",
+				"task_twelve\tfunction"
+			],
+			[
+				"user",
+				"UserListId"
+			],
+			[
+				"new",
+				"new_adwordsTracking"
+			],
+			[
+				"is_co",
+				"is_conversion"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "requirements.in",
+			"settings":
+			{
+				"buffer_size": 18,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Anaconda Python Builder",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Anaconda Python Builder",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Anaconda Python Builder",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				],
+				[
+					"Packages/User/SublimeREPL-python.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/SublimeREPL-python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Anaconda Python Builder",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/SublimeREPL-python.sublime-build",
+					""
+				]
+			],
+			[
+				"Anaconda Python Builder",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/C++ Starting Kit/C++ - Starting Kit.sublime-build",
+					""
+				],
+				[
+					"Packages/C++ Starting Kit/C++ - Starting Kit.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++ Starting Kit/C++ - Starting Kit.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/C++ Starting Kit/C++ - Starting Kit.sublime-build",
+					""
+				],
+				[
+					"Packages/C++ Starting Kit/C++ - Starting Kit.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				],
+				[
+					"Packages/User/SublimeREPL-python.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/SublimeREPL-python.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/Python3.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Python3.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/User/Python3.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 307.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"boxy",
+				"Boxy Theme: Activation"
+			],
+			[
+				"ut",
+				"UI: Select Theme"
+			],
+			[
+				"box",
+				"Boxy Theme: Activation"
+			],
+			[
+				"ayu",
+				"ayu: Activate theme"
+			],
+			[
+				"UI",
+				"UI: Select Color Scheme"
+			],
+			[
+				"eval",
+				"Worksheet: Evaluate worksheet"
+			],
+			[
+				"view",
+				"View Package File"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"INline",
+				"Inline Python: Execute selected code"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"tog",
+				"View: Toggle Minimap"
+			],
+			[
+				"Subl",
+				"Preferences: SublimeLinter Settings"
+			],
+			[
+				"go",
+				"Set Syntax: Go"
+			],
+			[
+				"ui",
+				"UI: Select Color Scheme"
+			],
+			[
+				"Pack",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"aut",
+				"AutoDocstring: Current"
+			],
+			[
+				"en",
+				"Package Control: Enable Package"
+			],
+			[
+				"lis",
+				"Package Control: List Packages"
+			],
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"gs",
+				"Git: Status"
+			],
+			[
+				"set in",
+				"Anaconda: Set Python interpreter"
+			],
+			[
+				"pla",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"linter",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"py",
+				"Set Syntax: Python"
+			],
+			[
+				"pyth",
+				"Set Syntax: Python"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"imp",
+				"Set Syntax: PythonImproved"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"flow",
+				"View Type (Flow)"
+			],
+			[
+				"Packa",
+				"Packages UI"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"Colo",
+				"UI: Select Color Scheme"
+			],
+			[
+				"Them",
+				"UI: Select Theme"
+			],
+			[
+				"colo",
+				"UI: Select Color Scheme"
+			],
+			[
+				"tern",
+				"tern_for_sublime: Enable Project"
+			],
+			[
+				"",
+				"Git: Quick Status"
+			],
+			[
+				"prefTer",
+				"Preferences: Terminal View: Settings"
+			],
+			[
+				"prefS",
+				"Preferences: SublimeLinter Settings"
+			],
+			[
+				"sublin",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"Sublime",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"clea",
+				"Bookmarks: Clear All"
+			],
+			[
+				"doc",
+				"AutoDocstring: Current"
+			],
+			[
+				"bok",
+				"Bookmarks: Clear All"
+			],
+			[
+				"gi",
+				"Git: Status"
+			],
+			[
+				"pip",
+				"Package Control: Install Package"
+			],
+			[
+				"Linter",
+				"SublimeLinter: Enable Linting"
+			],
+			[
+				"sub",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"art",
+				"Anaconda: Run Last Test"
+			],
+			[
+				"enab",
+				"Package Control: Enable Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"di",
+				"Package Control: Disable Package"
+			],
+			[
+				"legit",
+				"Legit: Switch"
+			],
+			[
+				"git",
+				"Git: Remote"
+			],
+			[
+				"ter",
+				"Terminal: Open in project folder"
+			],
+			[
+				"gp",
+				"Git: Push"
+			],
+			[
+				"topf",
+				"Terminal: Open in project folder"
+			],
+			[
+				"set ui",
+				"UI: Select Color Scheme"
+			],
+			[
+				"gl",
+				"Git: Log"
+			],
+			[
+				"scheme",
+				"UI: Select Color Scheme"
+			],
+			[
+				"disabel",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"gsgs",
+				"Preferences: GitGutter Settings"
+			],
+			[
+				"fr",
+				"File: Rename"
+			],
+			[
+				"prv",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"al",
+				"Anaconda: Enable linting on this file"
+			],
+			[
+				"col",
+				"UI: Select Color Scheme"
+			],
+			[
+				"linting",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"A F",
+				"AutoFileName: Quick Settings"
+			],
+			[
+				"color",
+				"SublimeLinter: Clear Color Scheme Folder"
+			],
+			[
+				"prvp",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"us",
+				"UI: Select Theme"
+			],
+			[
+				"update",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"Remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"them",
+				"UI: Select Theme"
+			],
+			[
+				"usc",
+				"UI: Select Color Scheme"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"top",
+				"Terminal: Open in project folder"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"gtter",
+				"GitGutter: Goto Next Change"
+			],
+			[
+				"togle",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"subl",
+				"Preferences: SublimeLinter Settings"
+			],
+			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"stat",
+				"Git: Status"
+			],
+			[
+				"jac",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"jav",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"sync",
+				"PackageSync: Backup/Restore - Backup Packages To Zip (Recommended)"
+			],
+			[
+				"togl",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"che",
+				"Git: Checkout"
+			],
+			[
+				"to",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"error",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"chec",
+				"Git: Checkout"
+			],
+			[
+				"gcc",
+				"Git: Custom Command"
+			],
+			[
+				"gpi",
+				"Git: Pull"
+			],
+			[
+				"tpo",
+				"Terminal: Open in project folder"
+			],
+			[
+				"termin",
+				"Terminal: Open in project folder"
+			],
+			[
+				"gitlog",
+				"Git: Log"
+			],
+			[
+				"replno",
+				"SublimeREPL: Node"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"vir",
+				"SublimeREPL: Python - virtualenv"
+			],
+			[
+				"g",
+				"Git: Quick Add"
+			],
+			[
+				"gc",
+				"Git: Commit"
+			],
+			[
+				"pus",
+				"Git: Push"
+			],
+			[
+				"tvo",
+				"Terminal View: Open Bash Terminal"
+			],
+			[
+				"bo",
+				"Boxy Theme: Configuration"
+			],
+			[
+				"merg",
+				"Git: Merge"
+			],
+			[
+				"Git",
+				"Git: Custom Command"
+			],
+			[
+				"branch",
+				"Git: Checkout Remote Branch"
+			],
+			[
+				"switch",
+				"Git: Switch Repo"
+			],
+			[
+				"bran",
+				"Git: Checkout Remote Branch"
+			],
+			[
+				"gm",
+				"Git: Merge"
+			],
+			[
+				"tv",
+				"Terminal View: Open Bash Terminal"
+			],
+			[
+				"Terminal",
+				"Terminal: Open"
+			],
+			[
+				"GIT",
+				"Gitk"
+			],
+			[
+				"gd",
+				"Git: Diff"
+			],
+			[
+				"gpl",
+				"Git: Pull"
+			],
+			[
+				"s",
+				"Sort Lines"
+			],
+			[
+				"gutt",
+				"GitGutter: Compare Against HEAD"
+			],
+			[
+				"Gutter",
+				"GitGutter: Goto Previous Change"
+			],
+			[
+				"rever",
+				"File: Revert"
+			],
+			[
+				"t",
+				"Terminal: Open"
+			],
+			[
+				"virt",
+				"SublimeREPL: Python - virtualenv"
+			],
+			[
+				"lint",
+				"SublimeLinter: Toggle Linter"
+			]
+		],
+		"width": 670.0
+	},
+	"console":
+	{
+		"height": 315.0,
+		"history":
+		[
+			"?",
+			"help",
+			"cl",
+			"version",
+			"import pushaudit",
+			"id",
+			"clear",
+			"sublime.cache_path()",
+			"import socket; socket.socket(socket.AF_INET, socket.SOCK_STREAM).connect((\"localhost\", 54377))",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"sublime.cache_path()",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/nickmuoh/Documents/Developer/AnimeRecommender",
+		"/Users/nickmuoh/Documents/Developer/AnimeRecommender/.vscode",
+		"/Users/nickmuoh/Documents/Developer/AnimeRecommender/anime-recommendations-database",
+		"/Users/nickmuoh/Documents/Developer/AnimeRecommender/grakn-schema"
+	],
+	"file_history":
+	[
+		"/Users/nickmuoh/Documents/Developer/AnimeRecommender/grakn-schema/anime-schema.gql",
+		"/Users/nickmuoh/Documents/Developer/AnimeRecommender/anime-recommendations-database/anime.csv",
+		"/Users/nickmuoh/Documents/Developer/AnimeRecommender/main.py",
+		"/Users/nickmuoh/Documents/Developer/AnimeRecommender/odintech.anime-recommender.sublime-project",
+		"/Users/nickmuoh/Library/Application Support/Sublime Text 3/Packages/Worksheet/worksheet.sublime-settings",
+		"/Users/nickmuoh/Library/Application Support/Sublime Text 3/Packages/User/worksheet.sublime-settings",
+		"/Users/nickmuoh/Library/Application Support/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PineberryAudit/config.py",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PineberryAudit/tests/test_model.py",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PineberryAudit/pineberryaudit/models/client.py",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PineberryAudit/pineberryaudit/static/css/main.css",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PineberryAudit/pineberryaudit/__init__.py",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PineberryAudit/pineberryaudit/routes.py",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PineberryAudit/.credentials/googleads.yaml",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PineberryAudit/dev-requirements.in",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PineberryAudit/requirements.in",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PineberryAudit/pineberryaudit/tasks.py",
+		"/Users/nickmuoh/Library/Application Support/Sublime Text 3/Packages/Python/Snippets/New-Class.sublime-snippet",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PineberryAudit/pineberryaudit/models/accountWiz.py",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PineberryAudit/dev-requirements.txt",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PineberryAudit/pineberryaudit/logger.py",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PineberryAudit/pineberryaudit/static/js/main.js",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PineberryAudit/.deploy/celery.service",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PineberryAudit/pineberryaudit/validators.py",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PineberryAudit/pineberryaudit/models/sheetWiz.py",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PineberryAudit/pineberryaudit/templates/index.html",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PineberryAudit/pineberryaudit/templates/accounts.html",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PineberryAudit/.deploy/redis.conf",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PineberryAudit/.deploy/README.md",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PineberryAudit/.deploy/gunicorn.service",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PineberryAudit/.gitignore",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PineberryAudit/.deploy/gunicorn.socket",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PineberryAudit/.deploy/celery.conf",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PineberryAudit/conf/gunicorn.tmp",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PineberryAudit/conf/redis.conf",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PineberryAudit/conf/redis.service",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PineberryAudit/task_logger/task_logger.py",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PineberryAudit/tests/test_tasks.py",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PineberryAudit/pineberryaudit/models/slideWiz.py",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PineberryAudit/conf/celery.tmp",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PineberryAudit/conf/celery.service",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PineberryAudit/conf/celery.conf",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PineberryAudit/.credentials/generate_credential.py",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PineberryAudit/celery_retry_failure.log",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PineberryAudit/.credentials/service_account.json",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PineberryAudit/.venv/lib/python3.6/site-packages/oauth2client/file.py",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PineberryAudit/.venv/lib/python3.6/site-packages/oauth2client/client.py",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PineberryAudit/.credentials/slides.pineberryaudit.json",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PineberryAudit/.credentials/slides.googleapis.com-python-quickstart.json",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PineberryAudit/.credentials/client_secret.json",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PineberryAudit/pineberry.pineberryaudit.sublime-project",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PineberryAudit/.credentials/service_account.pineberryaudit.json",
+		"/Users/nickmuoh/Downloads/Hyperdigital-c82503268874.json",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PineberryAudit/.credentials/client_secret.pineberryaudit.json",
+		"/Users/nickmuoh/Downloads/client_secret_753309133185-akbjvhp7l387hlgasqd1sh6f64765egt.apps.googleusercontent.com.json",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PineberryAudit/celery_retry_failure.log.2",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PineberryAudit/task_logger/__init__.py",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PineberryAudit/task_logger/celery_retry_failure.log",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PineberryAudit/logs/__init__.py",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PineberryAudit/conf/retry_failure.conf",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PineberryAudit/pineberryaudit/celery.py",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PineberryAudit/tests/__init__.py",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PushAudit/pushaudit/static/js/plugins/choices.min.js.map",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PushAudit/pushaudit/routes.py",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PushAudit/.jshintrc",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PushAudit/tests/test_tasks.py",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PushAudit/tests/test_celery_tasks.py",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PushAudit/pushaudit/tasks.py",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PushAudit/.credentials/googleads.yaml",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PushAudit/.credentials/googleads1.yaml",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PushAudit/pushaudit/models/client.py",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PushAudit/pushaudit/models/sheetWiz.py",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PushAudit/config.py",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PushAudit/pushaudit/models/accountWiz.py",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PushAudit/pushaudit/templates/accounts.html",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PushAudit/pushaudit/static/js/main.js",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PushAudit/pushaudit/templates/index.html",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PushAudit/pushaudit/models/slideWiz.py",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PushAudit/.venv/lib/python3.6/site-packages/googleads/adwords.py",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PushAudit/pushaudit/models/borg.py",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PushAudit/.gitignore",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PushAudit/pushaudit/models/singleton.py",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PushAudit/pushaudit/celery.py",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PushAudit/pushaudit/__init__.py",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PushAudit/requirements.in",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PushAudit/tests/test_models.py",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PushAudit/deploy-utils/celery",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PushAudit/.credentials/slides.pushaudit.json",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PushAudit/push.pushaudit.sublime-project",
+		"/Users/nickmuoh/Downloads/googleads-python-lib-master/examples/adwords/authentication/generate_refresh_token.py",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PushAudit/pushaudit/static/css/main.css",
+		"/Users/nickmuoh/Library/Application Support/Sublime Text 3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/Users/nickmuoh/Library/Application Support/Sublime Text 3/Packages/JavaScript Completions/JavaScript-Completions.sublime-settings",
+		"/Users/nickmuoh/Library/Application Support/Sublime Text 3/Packages/User/JavaScript-Completions.sublime-settings",
+		"/Users/nickmuoh/Library/Application Support/Sublime Text 3/Packages/User/pep8_autoformat.sublime-settings",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PushAudit/.tern-project",
+		"/Users/nickmuoh/Library/Application Support/Sublime Text 3/Packages/User/Tern.sublime-settings",
+		"/Users/nickmuoh/Library/Application Support/Sublime Text 3/Packages/tern_for_sublime/Tern.sublime-settings",
+		"/Users/nickmuoh/Library/Application Support/Sublime Text 3/Packages/FlowIDE/FlowIDE.sublime-settings",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PushAudit/.flowconfig",
+		"/Users/nickmuoh/Desktop/pushaudit-prod/celery",
+		"/Users/nickmuoh/Desktop/pushaudit-prod/gunicorn.service",
+		"/Users/nickmuoh/Desktop/pushaudit-prod/README.md",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PushAudit/requirements.txt",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PushAudit/audit-worker-1.log",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PushAudit/audit-worker-3.log",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PushAudit/audit-worker-2.log",
+		"/usr/local/Cellar/python3/3.6.3/Frameworks/Python.framework/Versions/3.6/lib/python3.6/unittest/mock.py",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PushAudit/.venv/lib/python3.6/site-packages/gspread/models.py",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PushAudit/.git/COMMIT_EDITMSG",
+		"/Users/nickmuoh/Downloads/Source/WhackAMole/Assets/Player.cs",
+		"/Users/nickmuoh/Downloads/Source/WhackAMole/Assets/Hammer.cs",
+		"/Users/nickmuoh/.pylintrc",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PushAudit/tests/__init__.py",
+		"/Users/nickmuoh/Library/Application Support/Sublime Text 3/Packages/User/AutoPep8.sublime-settings",
+		"/Users/nickmuoh/Library/Application Support/Sublime Text 3/Packages/AutoPEP8/AutoPep8.sublime-settings",
+		"/Users/nickmuoh/.vimrc",
+		"/Users/nickmuoh/Desktop/vimrc",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PushAudit/.venv/lib/python3.6/site-packages/celery/local.py",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PushAudit/.venv/lib/python3.6/site-packages/celery/app/task.py",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PushAudit/tests",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PushAudit/.credentials/secret.pushaudit.json",
+		"/Users/nickmuoh/Library/Application Support/Sublime Text 3/Packages/Jedi - Python autocompletion/sublime_jedi.sublime-settings",
+		"/Users/nickmuoh/Library/Application Support/Sublime Text 3/Packages/User/sublime_jedi.sublime-settings",
+		"/etc/hosts",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PushAudit/pushaudit/models/redis.py",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PushAudit/pushaudit/models/chordStatus.py",
+		"/Users/nickmuoh/Documents/Developer/HyperDigital/PushAudit/audit-worker.log"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "requirements.in",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": 127,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 65.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 385.0
+	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 120.0
+	},
+	"output.anaconda_documentation":
+	{
+		"height": 270.0
+	},
+	"output.astyle_error_message":
+	{
+		"height": 0.0
+	},
+	"output.autopep8":
+	{
+		"height": 120.0
+	},
+	"output.cc":
+	{
+		"height": 118.0
+	},
+	"output.exec":
+	{
+		"height": 324.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 138.0
+	},
+	"output.git-checkout":
+	{
+		"height": 94.0
+	},
+	"output.git-commit":
+	{
+		"height": 94.0
+	},
+	"output.git-merge":
+	{
+		"height": 94.0
+	},
+	"output.git-pull":
+	{
+		"height": 94.0
+	},
+	"output.git-push":
+	{
+		"height": 94.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"output.nodejs":
+	{
+		"height": 273.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 343.0
+	},
+	"pinned_build_system": "Anaconda Python Builder",
+	"project": "odintech.anime-recommender.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"clien",
+				"pineberryaudit/models/client.py"
+			],
+			[
+				"ro",
+				"pineberryaudit/routes.py"
+			],
+			[
+				"ta",
+				"pineberryaudit/tasks.py"
+			],
+			[
+				"acou",
+				"pineberryaudit/models/accountWiz.py"
+			],
+			[
+				"she",
+				"pineberryaudit/models/sheetWiz.py"
+			],
+			[
+				"task",
+				"pineberryaudit/tasks.py"
+			],
+			[
+				"re",
+				"dev-requirements.in"
+			],
+			[
+				"test",
+				"tests/test_tasks.py"
+			],
+			[
+				"tas",
+				"pushaudit/tasks.py"
+			],
+			[
+				"tasks",
+				"PushAudit/pushaudit/tasks.py"
+			],
+			[
+				"tes",
+				"PushAudit/tests/test_tasks.py"
+			],
+			[
+				"slide",
+				"PushAudit/pushaudit/models/slideWiz.py"
+			],
+			[
+				"acc",
+				"pushaudit/models/accountWiz.py"
+			],
+			[
+				"rout",
+				"pushaudit/routes.py"
+			],
+			[
+				"RF",
+				"wserver-RF.py"
+			],
+			[
+				"bran",
+				"static/js/branch_data_service.js"
+			],
+			[
+				"main",
+				"static/js/main.js"
+			],
+			[
+				"wse",
+				"wserver.py"
+			],
+			[
+				"ut",
+				"util/branch_utils.py"
+			],
+			[
+				"inde",
+				"templates/index.html"
+			],
+			[
+				"ad",
+				"util/adwords.py"
+			],
+			[
+				"ind",
+				"templates/index.html"
+			],
+			[
+				"ws",
+				"wserver.py"
+			],
+			[
+				"in",
+				"templates/index.html"
+			],
+			[
+				"w",
+				"wserver.py"
+			],
+			[
+				"bra",
+				"static/js/branch_data_service.js"
+			],
+			[
+				"br",
+				"static/js/branch_data_service.js"
+			],
+			[
+				"a",
+				"util/adwords.py"
+			],
+			[
+				"adw",
+				"util/adwords.py"
+			],
+			[
+				"cus",
+				"static/css/custom.css"
+			],
+			[
+				"",
+				"templates/index.html"
+			],
+			[
+				"r",
+				"pushaudit/routes.py"
+			],
+			[
+				"con",
+				"constants.py"
+			],
+			[
+				"wor",
+				"worker.py"
+			],
+			[
+				"mis",
+				"P1_Data_Preprocessing/missing_data.py"
+			],
+			[
+				"misi",
+				"Part1_Data_Preprocessing/missing_data.py"
+			],
+			[
+				"data",
+				"Part1_Data_Preprocessing/data_preprocessing_template.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Documents/Developer/HyperDigital/PineberryAudit/pineberry.pineberryaudit.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 357.0,
+		"last_filter": "delete",
+		"selected_items":
+		[
+			[
+				"delete",
+				"delete"
+			],
+			[
+				"initP",
+				"initPivotTable"
+			],
+			[
+				"pak",
+				"parseAccountKeywords"
+			],
+			[
+				"",
+				"AnimationThread"
+			]
+		],
+		"width": 638.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 176.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}
