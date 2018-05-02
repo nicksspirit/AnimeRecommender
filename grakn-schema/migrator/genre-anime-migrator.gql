@@ -1,0 +1,5 @@
+match
+    $anime isa anime has anime_id <anime_id>;
+    $genre isa genre has name @lower(<genre>);
+insert
+    (tagged: $anime, tagger: $genre) isa tagging;

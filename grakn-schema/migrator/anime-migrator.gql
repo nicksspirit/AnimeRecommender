@@ -1,0 +1,20 @@
+insert
+    $anime isa anime;
+    $anime has anime_id <anime_id>;
+    $anime has title @lower(<name>);
+
+    if (<type> != "") do {
+        $anime has type @lower(<type>);
+    }
+
+    if (<episodes> != "Unknown") do {
+        $anime has episodes @long(<episodes>);
+    }
+
+    if (<rating> != "") do {
+        $anime has rating @double(<rating>);
+    }
+
+    if (<members> != "") do {
+        $anime has members @long(<members>);
+    }

@@ -1,0 +1,3 @@
+insert
+    $genre isa genre;
+    $genre has name @lower(<name>);
