@@ -1,0 +1,14 @@
+match
+    $anime isa anime has anime_id <anime_id>;
+    $user isa user has user_id <user_id>;
+insert
+    (watched_anime: $anime, anime_watcher: $user) isa anime_watched;
+
+    if ( <rating> = "-1") do {
+        (unrated_anime: $anime, anime_watcher: $user) isa anime_not_rated;
+    }
+    
+    if ( <rating> != "-1") do {
+        (rated_anime: $anime, anime_rater: $user) isa anime_rated has user_rating @double(<rating>); 
+    }
+

@@ -31,7 +31,9 @@ define
         
         # Attributes
         has user_id,
-        has name;
+        has user_name,
+        has first_name,
+        has last_name;
     
     # Relationships
     tagging sub relationship,
@@ -50,15 +52,48 @@ define
     anime_not_rated sub relationship,
         relates unrated_anime,
         relates anime_watcher;
-    
+
+    similar-to sub role;
+    similar_anime sub relationship,
+	    relates similar-to,
+	    relates similar-to;
+
+    dissimilar-to sub role;
+    disimilar_anime sub relationship,
+	    relates dissimilar-to,
+	    relates dissimilar-to;
+
+    # Rules
+    anime_is_similar
+    when {
+        (tagged: $anime_a, tagger: $genre) isa tagging;
+        (tagged: $anime_b, tagger: $genre) isa tagging;
+    },
+    then {
+        (similar-to: $anime_a, similar-to: $anime_b) isa similar_anime;
+    };
+
+    anime_is_not_similar
+    when {
+        (tagged: $anime_a, tagger: $genre_a) isa tagging;
+        (tagged: $anime_b, tagger: $genre_b) isa tagging;
+        $genre_a != $genre_b;
+    },
+    then {
+        (dissimilar-to: $anime_a, dissimilar-to: $anime_b) isa disimilar_anime;
+    };
+
     # Resources
     identifier sub attribute, datatype string;
-    anime_id sub identifier, datatype string;
-    user_id sub identifier, datatype string;
-    title sub attribute, datatype string;
+    anime_id sub identifier;
+    user_id sub identifier;
     name sub attribute, datatype string;
+    user_name sub name;
+    first_name sub name;
+    last_name sub name;
+    title sub attribute, datatype string;
     type sub attribute, datatype string;
     episodes sub attribute, datatype long;
     members sub attribute, datatype long;
     rating sub attribute, datatype double;
-    user_rating sub rating, datatype double;
+    user_rating sub rating;
