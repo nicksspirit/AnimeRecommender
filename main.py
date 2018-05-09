@@ -6,7 +6,7 @@ import csv
 import os
 import pandas as pd
 
-BASE_DIR = os.getcwd()
+BASE_DIR = os.path.abspath(os.path.dirname(__file__))
 CSV_DIR = os.path.join(BASE_DIR, 'anime-recommendations-csv')
 
 
