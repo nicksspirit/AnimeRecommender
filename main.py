@@ -4,10 +4,21 @@ from tabulate import tabulate
 from math import isnan
 import csv
 import os
+import subprocess
 import pandas as pd
 
 BASE_DIR = os.path.abspath(os.path.dirname(__file__))
 CSV_DIR = os.path.join(BASE_DIR, 'anime-recommendations-csv')
+FILE_BATCH_SIZE = 4
+
+
+def line_count(path_to_file: str) -> int:
+    return int(subprocess.check_output(f'wc -l < {path_to_file}', shell=True))
+
+
+def split_file(path_to_file: str, num_lines: str) -> int:
+    proc = subprocess.run(['split', '-l', f'{num_lines}', path_to_file])
+    return int(proc.returncode)
 
 
 def write_to_csv(csv_file: str, heading: Tuple[str], rows: Iterable[Tuple[str]]) -> None:
@@ -72,3 +83,6 @@ if __name__ == '__main__':
     prep_genre_data(anime_df['genre'])
     prep_anime_genre_data(anime_df['anime_id'], anime_df['genre'])
     prep_user_data(user_rating_df['user_id'])
+
+    num_of_lines = int(round(line_count(os.path.join(CSV_DIR, 'rating.csv'))) / FILE_BATCH_SIZE)
+    split_file(os.path.join(CSV_DIR, 'rating.csv'), num_of_lines)
