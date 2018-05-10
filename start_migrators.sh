@@ -80,7 +80,7 @@ do
 
             migrate_anime_genre
             ;;
-        anime_user)
+        user)
             if [ $is_migrate -eq 0 ]; then
                 echo "Missing --migrate or -m flag"
                 exit
@@ -88,7 +88,7 @@ do
             
             migrate_user
             ;;
-        anime_user_anime)
+        anime_user)
             if [ $is_migrate -eq 0 ]; then
                 echo "Missing --migrate or -m flag"
                 exit
