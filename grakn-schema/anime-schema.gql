@@ -1,11 +1,16 @@
 define 
     # Entity
     anime sub entity,
+
     # Roles
     plays watched_anime,
     plays rated_anime,
     plays unrated_anime,
     plays tagged,
+
+    # Inferred
+    plays similar_to,
+    plays dissimilar_to,
 
     # Attributes
     has anime_id,
@@ -53,34 +58,41 @@ define
         relates unrated_anime,
         relates anime_watcher;
 
-    similar-to sub role;
+    
     similar_anime sub relationship,
-	    relates similar-to,
-	    relates similar-to;
+	    relates tagged,
+        relates watched_anime,
+        relates rated_anime,
+	    relates similar_to;
 
-    dissimilar-to sub role;
+    
     disimilar_anime sub relationship,
-	    relates dissimilar-to,
-	    relates dissimilar-to;
+	    relates tagged,
+        relates watched_anime,
+        relates unrated_anime,
+	    relates dissimilar_to;
 
+    similar_to sub role;
+    dissimilar_to sub role;
+    
     # Rules
-    anime_is_similar
+    anime_is_similar sub rule
     when {
         (tagged: $anime_a, tagger: $genre) isa tagging;
         (tagged: $anime_b, tagger: $genre) isa tagging;
     },
     then {
-        (similar-to: $anime_a, similar-to: $anime_b) isa similar_anime;
+        (tagged: $anime_a, similar_to: $anime_b) isa similar_anime;
     };
 
-    anime_is_not_similar
+    anime_is_not_similar sub rule
     when {
-        (tagged: $anime_a, tagger: $genre_a) isa tagging;
-        (tagged: $anime_b, tagger: $genre_b) isa tagging;
+        (tagged: $anime_c, tagger: $genre_a) isa tagging;
+        (tagged: $anime_d, tagger: $genre_b) isa tagging;
         $genre_a != $genre_b;
     },
     then {
-        (dissimilar-to: $anime_a, dissimilar-to: $anime_b) isa disimilar_anime;
+        (tagged: $anime_c, dissimilar_to: $anime_d) isa disimilar_anime;
     };
 
     # Resources
