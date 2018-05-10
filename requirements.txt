@@ -4,15 +4,29 @@
 #
 #    pip-compile --output-file requirements.txt requirements.in
 #
+asn1crypto==0.24.0        # via cryptography
+bcrypt==3.1.4             # via paramiko
 certifi==2018.1.18        # via requests
+cffi==1.11.5              # via bcrypt, cryptography, pynacl
 chardet==3.0.4            # via requests
+cryptography==2.2.2       # via paramiko
+fabric3==1.14.post1
+falcon-jsonify==1.1
+falcon==1.4.1
 grakn==0.9.0
-idna==2.6                 # via requests
+gunicorn==19.8.1
+idna==2.6                 # via cryptography, requests
+marshmallow==2.15.1
 numpy==1.14.2
 pandas==0.22.0
+paramiko==2.4.1           # via fabric3
+pyasn1==0.4.2             # via paramiko
+pycparser==2.18           # via cffi
+pynacl==1.2.1             # via paramiko
 python-dateutil==2.7.2    # via pandas
+python-mimeparse==1.6.0   # via falcon
 pytz==2018.3              # via pandas
 requests==2.18.4          # via grakn
-six==1.11.0               # via python-dateutil
+six==1.11.0               # via bcrypt, cryptography, fabric3, falcon, falcon-jsonify, pynacl, python-dateutil
 tabulate==0.8.2
 urllib3==1.22             # via requests

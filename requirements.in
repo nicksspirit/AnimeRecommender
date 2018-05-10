@@ -2,3 +2,8 @@ numpy
 pandas
 tabulate
 grakn
+falcon
+falcon-jsonify
+gunicorn
+fabric3
+marshmallow
