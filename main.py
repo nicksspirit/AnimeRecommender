@@ -16,12 +16,14 @@ def line_count(path_to_file: str) -> int:
     return int(subprocess.check_output(f'wc -l < {path_to_file}', shell=True))
 
 
-def split_file(path_to_file: str, num_lines: str) -> int:
+def split_file(path_to_file: str, num_lines: int) -> int:
     proc = subprocess.run(['split', '-l', f'{num_lines}', path_to_file])
     return int(proc.returncode)
 
 
-def write_to_csv(csv_file: str, heading: Tuple[str], rows: Iterable[Tuple[str]]) -> None:
+def write_to_csv(csv_file: str,
+                 heading: Tuple[str, ...],
+                 rows: Iterable[Tuple[str, ...]]) -> None:
     with open(os.path.join(CSV_DIR, csv_file), 'w') as file:
         writer = csv.writer(file)
         writer.writerow(heading)
