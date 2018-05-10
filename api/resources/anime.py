@@ -1,11 +1,11 @@
 import falcon
 from falcon import Request, Response
-from api.models.anime import AnimeEntity 
+from api.models.anime import AnimeModel
 
 
 class Anime:
     def __init__(self):
-        self.resource = AnimeEntity()
+        self.resource = AnimeModel()
 
     def on_get(self, req: Request, resp: Response) -> None:
 
