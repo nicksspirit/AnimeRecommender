@@ -66,13 +66,21 @@ class AnimeModel(Entity):
 
         return self.grakn.query(f'''
             match $anime isa anime has anime_id "{anime_id}" {' '.join(attributes)};
-            limit 1; 
-            offset 0; 
+            limit 1; offset 0;
             get {','.join(get_attr)};
         ''')
 
-    def get_similar_anime(self, anime_title: str, limit: int) -> List[Dict]:
+    @utils.marshall_with(AnimeSchema)
+    def get_similar_anime(self, anime_title: str, limit: int, offset: int, genre: str=None) -> List[Dict]:
+        filter_by_genre = f'$name val = "{genre.lower()}";' if genre else ''
+
         return self.grakn.query(f'''
-            
+            match (tagged: $anime_a, tagger: $genre_a) isa tagging;
+            (tagged: $anime_a, similar_to: $anime_b) isa similar_anime;
+            $anime_a has title $a_title;
+            $a_title val = "{anime_title.lower()}";
+            $anime_b has anime_id $anime_id has title $title;
+            $genre_a has name $name;
+            {filter_by_genre}
+            limit {limit}; offset {offset}; get $anime_id, $title;
         ''')
-        
