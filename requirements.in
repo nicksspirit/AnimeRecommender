@@ -7,3 +7,4 @@ falcon-jsonify
 gunicorn
 fabric3
 marshmallow
+webargs
