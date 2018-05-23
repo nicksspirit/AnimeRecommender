@@ -1,8 +1,10 @@
-from marshmallow import Schema, fields
-from typing import Dict 
+from marshmallow import Schema
+from typing import Dict
 from types import FunctionType
+from functools import wraps
 
-def marshall(schema: Schema, many=True) -> FunctionType:
+
+def marshall_with(schema: Schema, many=True) -> FunctionType:
     def _marshall(f_query: FunctionType) -> FunctionType:
         def wrapper(self, limit, *args, **kwargs) -> Dict:
             data = f_query(self, limit, *args, **kwargs)
