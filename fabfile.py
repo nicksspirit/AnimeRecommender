@@ -21,6 +21,10 @@ def grakn_factory_reset():
     grakn_start()
 
 
+def dev_local_network():
+    local('gunicorn --bind 0.0.0.0:8000 --reload api:api')
+
+
 def dev():
     '''Start gunicorn and watch for changes'''
     local('gunicorn --reload api:api')
