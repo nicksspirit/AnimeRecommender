@@ -28,6 +28,5 @@ python-mimeparse==1.6.0   # via falcon
 pytz==2018.3              # via pandas
 requests==2.18.4          # via grakn
 six==1.11.0               # via bcrypt, cryptography, fabric3, falcon, falcon-jsonify, pynacl, python-dateutil
-tabulate==0.8.2
 urllib3==1.22             # via requests
 webargs==3.0.0

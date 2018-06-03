@@ -1,6 +1,5 @@
 numpy
 pandas
-tabulate
 grakn
 falcon
 falcon-jsonify
