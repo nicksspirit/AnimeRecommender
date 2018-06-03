@@ -1,4 +1,6 @@
 insert
     $user isa user;
     $user has user_id <user_id>;
-    $user has name @lower(<name>);
+    $user has user_name @lower(<user_name>);
+    $user has first_name @lower(<first_name>);
+    $user has last_name @lower(<last_name>);
