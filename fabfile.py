@@ -3,7 +3,7 @@ from fabric.api import local
 
 def grakn_clean():
     '''Clean Grakn database'''
-    local('grakn server clean')
+    local('echo \'Y\' | grakn server clean')
 
 
 def grakn_stop():
